@@ -586,7 +586,6 @@ grpc_cc_test(
         "absl/types:optional",
         "absl/types:variant",
         "gtest",
-        "libcrypto",
     ],
     language = "C++",
     shard_count = 10,
